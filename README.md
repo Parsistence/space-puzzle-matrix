@@ -24,7 +24,7 @@ The games will be programmed with scalable difficulty. A few games that will be 
 
 ## Hardware
 
-...
+The matrix module will use a 6x6 matrix of LED buttons, along with an LCD display and a few additional buttons on the side. See the [**Part List**](./Part%20List.md) for a full list of parts.
 
 ## Software
 
