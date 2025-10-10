@@ -19,6 +19,8 @@ The games will be programmed with scalable difficulty. A few games that will be 
 - **Maze**: A maze randomly generates on the matrix, and the player has to draw a path from the start to the finish to succeed. In higher difficulties the player's path must be the shortest possible path in order to succeed.
 - **Navigation**: The player must guide a robot to a few target spaces in a maze. The player must provide the robot with a set of instructions (move forward, rotate left, rotate right) in order to map the robot's route. Based on [The Navigator](https://clubpenguin.fandom.com/wiki/The_Navigator) from Club Penguin.
 
+More detail on each game and how they will be implemented will be added to [**Games & Implementation**](./Games%20&%20Implementation.md).
+
 ## Hardware
 
-The matrix module will use a 6x6 matrix of LED buttons, along with an LCD display and a few additional buttons on the side. See the [**Part List**](./Part%20List.md) for a full list of parts.
+The matrix module will use a 6x6 matrix of LED buttons, along with an LCD display and a few additional buttons on the side. A more comprehensive list of parts will be added to [**Part List**](./Part%20List.md).
