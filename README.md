@@ -17,6 +17,7 @@ The games will be programmed with scalable difficulty. A few games that will be 
 - **Minesweeper**: Several mines will be placed on the matrix that the player cannot see. When a player taps on a tile, it lights up, and its color indicates the number of mines adjacent to it.
 - **Flow**: Connect several pipes to allow water to flow from them. Each pipe has two endpoints on the matrix, and the player connects the endpoints by pushing adjacent buttons to create a path.
 - **Maze**: A maze randomly generates on the matrix, and the player has to draw a path from the start to the finish to succeed. In higher difficulties the player's path must be the shortest possible path in order to succeed.
+- **Navigation**: The player must guide a robot to a few target spaces in a maze. The player must provide the robot with a set of instructions (move forward, rotate left, rotate right) in order to map the robot's route. Based on [The Navigator](https://clubpenguin.fandom.com/wiki/The_Navigator) from Club Penguin.
 
 ## Design Process
 
