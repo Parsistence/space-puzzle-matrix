@@ -4,7 +4,7 @@ A puzzle matrix module designed for a space panel to be used by the Christa McAu
 
 ## Overview
 
-![A simple sketch of what the Space Puzzle Matrix module will look like](<Mario Matrix Idea.png>)
+![A simple sketch of what the Space Puzzle Matrix module will look like](<block_diagram.svg>)
 
 The matrix module will be a matrix of 6x6 LED buttons that will allow different puzzles to be played. The matrix will also have a small LCD display and 3 additional buttons for added functionality. The games will be played on the button matrix and encourage problem-solving and critical thinking skills.
 
