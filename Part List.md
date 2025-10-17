@@ -1,4 +1,4 @@
-# Part List Ideas
+# Part List
 
 ## Core Parts
 
