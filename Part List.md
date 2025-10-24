@@ -10,10 +10,10 @@
 
 - **LED Buttons**: This will be one analog button plus one neopixel under the hood (following [this guide](https://1drv.ms/v/c/d5d13c61c60eae0c/EQyuDsZhPNEggNURugAAAAABC1qcKIA6uDmvEMEURvn0nA)).
   - **Button**: The Space Center may have some arcade-style push-buttons we can use.
-    - Link: ...
-    - Unit Cost: ...
-    - Qty: ...
-    - Total: ...
+    - Link: [https://mechanicalkeyboards.com/products/kailh-box-white-45g-clicky-plate-mount?_pos=2&_fid=a223ac34d&_ss=c](https://mechanicalkeyboards.com/products/kailh-box-white-45g-clicky-plate-mount?_pos=2&_fid=a223ac34d&_ss=c)
+    - Unit Cost: $0.35
+    - Qty: 40
+    - Total: $14.00 + roughly $4.90 shipping = $19.94 (with tax)
   - **Neopixel**: WS2812B RGB LED Chips
     - Link: [https://www.aliexpress.us/item/2255801159561004.html?spm=a2g0o.productlist.main.2.13a212b7Sz3NCt](https://www.aliexpress.us/item/2255801159561004.html?spm=a2g0o.productlist.main.2.13a212b7Sz3NCt)
     - Unit Cost: $0.0564
