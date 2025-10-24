@@ -1,15 +1,15 @@
 # Part List
 
-## Core Parts
+<!-- ## Core Parts
 
 - 6x6 LED button grid (5x5 for testing)
 - 3 additional LED buttons for cycling display/alternate controls
-- Display screen for score, lives, goal, etc.
+- Display screen for score, lives, goal, etc. -->
 
 ## Specific Parts to Order
 
 - **LED Buttons**: This will be one analog button plus one neopixel under the hood (following [this guide](https://1drv.ms/v/c/d5d13c61c60eae0c/EQyuDsZhPNEggNURugAAAAABC1qcKIA6uDmvEMEURvn0nA)).
-  - **Button**: ...
+  - **Button**: The Space Center may have some arcade-style push-buttons we can use.
     - Link: ...
     - Unit Cost: ...
     - Qty: ...
