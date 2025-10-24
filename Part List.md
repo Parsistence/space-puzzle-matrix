@@ -14,9 +14,9 @@
     - Unit Cost: ...
     - Qty: ...
     - Total: ...
-  - **Neopixel**: WS2812B Individual Button PCB LEDs
-    - Link: [https://www.aliexpress.us/item/2255800973761662.html?spm=a2g0o.productlist.main.23.44f64d1aRqo83W](https://www.aliexpress.us/item/2255800973761662.html?spm=a2g0o.productlist.main.23.44f64d1aRqo83W)
-    - Unit Cost: $0.1324
+  - **Neopixel**: WS2812B RGB LED Chips
+    - Link: [https://www.aliexpress.us/item/2255801159561004.html?spm=a2g0o.productlist.main.2.13a212b7Sz3NCt](https://www.aliexpress.us/item/2255801159561004.html?spm=a2g0o.productlist.main.2.13a212b7Sz3NCt)
+    - Unit Cost: $0.0564
     - Qty: 50
-    - Total: $6.62
+    - Total: $2.82
 - **LCD Screen**: We should already have some LCD screens on hand to test with.
