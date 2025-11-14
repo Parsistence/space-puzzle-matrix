@@ -43,11 +43,18 @@ private:
      */
     void toggleCell(int x, int y);
 
+    /**
+     * @brief Helper function to set a random tile in the grid.
+     */
+    void setRandomCell();
+
     GridInterface* p_grid; // Pointer to the abstracted grid
     bool m_running;
 
     int m_gridWidth;
     int m_gridHeight;
+
+    std::vector<std::pair<int8_t, int8_t>> target_cells;
 
     /**
      * @brief 2D vector to store the state (color) of our game grid.
