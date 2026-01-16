@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "64f08d11-37bb-4572-a62e-5f463d48bac3")
 	(paper "A4")
+	(title_block
+		(title "Button Mainboard Interface")
+		(date "2026-01-15")
+		(rev "X0")
+		(company "CMSC")
+		(comment 1 "Drawn 1-15-26 by NF")
+		(comment 2 "Released 1-15-26 by NF")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names

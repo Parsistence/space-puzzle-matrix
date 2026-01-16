@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Fabrication_data_Button_Mainboard_Interface")
 		)
 	)
 	(net 0 "")
@@ -8376,6 +8376,19 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "18534020-2557-47b5-8434-273d17688619")
+	)
+	(gr_text "REV X0"
+		(at 141.15 85.1 90)
+		(layer "F.SilkS")
+		(uuid "c31019a3-6153-4db7-b125-cd2c79764844")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Button Breakout\nTo Analog Board\nCMSC 2026\nNathan Ford"
 		(at 141.1 119.45 90)
