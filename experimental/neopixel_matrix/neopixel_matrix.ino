@@ -3,7 +3,7 @@
 #include <Adafruit_NeoMatrix.h>
 #include <Adafruit_NeoPixel.h>
 
-#define PIN       13
+#define PIN 13
 #define WIDTH 6
 #define HEIGHT 6
 
@@ -20,4 +20,14 @@ void matrixDraw(Adafruit_NeoMatrix* matrix, uint32_t colors[HEIGHT][WIDTH]) {
             matrix->setPixelColor(y * WIDTH + x, colors[y][x]);
         }
     }
+}
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
 }
