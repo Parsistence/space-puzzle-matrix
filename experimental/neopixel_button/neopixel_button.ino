@@ -6,8 +6,9 @@
 #define NUMPIXELS 1
 
 #define BTN_PIN 2
+#define BTN_DEBOUNCE_MS 50
 
-#define DELAYVAL 10
+#define DELAYVAL 50
 
 uint8_t base_colors[NUMPIXELS][3];
 
@@ -37,20 +38,25 @@ void button_fsm() {
   };
 
   static int state = BTN_UP;
+  static unsigned long last_transition_ms = 0;
 
   int btn_read = digitalRead(BTN_PIN);
+  unsigned long now = millis();
 
   switch (state) {
   case BTN_UP:
-    if (btn_read == LOW) {
+    if (btn_read == LOW && (now - last_transition_ms) >= BTN_DEBOUNCE_MS) {
       lights_on = !lights_on;
       state = BTN_DOWN;
+      last_transition_ms = now;
     }
     break;
 
   case BTN_DOWN:
-    if (btn_read == HIGH) {
+    if (btn_read == HIGH &&
+        (now - last_transition_ms) >= BTN_DEBOUNCE_MS) {
       state = BTN_UP;
+      last_transition_ms = now;
     }
     break;
   }
@@ -68,21 +74,27 @@ void setup() {
   pinMode(BTN_PIN, INPUT_PULLUP);
 }
 
-void loop() {
-  button_fsm();
-
+void update_pixels() {
   pixels.clear();
   static int r = 255, g = 128, b = 0;
   r = (r + 10) % 255;
   g = (g + 10) % 255;
   b = (b + 10) % 255;
-  // TODO
+
   for (int i = 0; i < NUMPIXELS; i++) {
     pixels.setPixelColor(i, color_of(i) + pixels.Color(r, g, b));
   }
 
   pixels.setBrightness(lights_on ? 255 : 0);
-
   pixels.show();
-  delay(DELAYVAL);
+}
+
+void loop() {
+  button_fsm();
+
+  static unsigned long time_ms = millis();
+  if (millis() - time_ms >= DELAYVAL) {
+    update_pixels();
+    time_ms = millis();
+  }
 }
